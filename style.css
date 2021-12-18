@@ -77,8 +77,8 @@ body {
   margin-top: 105px;
 }
 .slider {
-  width: 800px;
-  height: 400px;
+  width: 1024px;
+  height: 512px;
   background: url("1.jpg");
 }
 @keyframes slide {
