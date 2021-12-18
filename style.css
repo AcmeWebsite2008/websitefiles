@@ -1,6 +1,6 @@
 *{
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 .header{
@@ -64,38 +64,40 @@ body {
   /* centers the loading animation horizontally one the screen */
   top: 50%;
   /* centers the loading animation vertically one the screen */
-  background-image: url(load.gif);
+  background-image: url(https://cdn.jsdelivr.net/gh/AcmeWebsite2008/websitefiles/load.gif);
   /* path to your loading animation */
   background-repeat: no-repeat;
   background-position: center;
   margin: -100px 0 0 -100px;
   /* is width and height divided by two */
 }
-.container{
+.content{
   background: #fff;
-  background-attachment: fixed;
+  left: 0;
   margin-top: 105px;
 }
 .slider {
   width: 800px;
   height: 400px;
   background: url("1.jpg");
-  animation: slide 15s infinite;
 }
 @keyframes slide {
   20%{
-    background: url("1.jpg");
+    background: url("https://cdn.jsdelivr.net/gh/AcmeWebsite2008/websitefiles/1.jpg");
   }
   40%{
-    background: url("2.jpg");
+    background: url("https://cdn.jsdelivr.net/gh/AcmeWebsite2008/websitefiles/2.jpg");
   }
   60%{
-    background: url("3.jpg");
+    background: url("https://cdn.jsdelivr.net/gh/AcmeWebsite2008/websitefiles/3.jpg");
   }
   80%{
-  background: url("4.jpg"); 
+    background: url("https://cdn.jsdelivr.net/gh/AcmeWebsite2008/websitefiles/4.jpg"); 
   }
   100%{
-    background: url("1.jpg");
+    background: url("https://cdn.jsdelivr.net/gh/AcmeWebsite2008/websitefiles/1.jpg");
   }
+}
+.slider.loaded{
+  animation: slide 10s infinite;
 }
