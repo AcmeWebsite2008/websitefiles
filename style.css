@@ -99,5 +99,5 @@ body {
   }
 }
 .slider.loaded{
-  animation: slide 10s infinite;
+  animation: slide 15s infinite;
 }
